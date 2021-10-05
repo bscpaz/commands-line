@@ -2,6 +2,7 @@
 <p align="center">This page shows docker's commands.</p>
 
 
+
 * List all actived containers
 ```
 docker ps
@@ -16,6 +17,13 @@ docker ps -a
 ```
 docker ps -a -q
 ```
+
+* Run a image without registering as a container
+```
+docker run -rm bscpaz/hello-world:latest
+```
+
+
 
 * Remove (forced) all containers in just one command
 ```
