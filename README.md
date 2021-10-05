@@ -23,6 +23,14 @@ docker ps -a -q
 docker run -rm bscpaz/hello-world:latest
 ```
 
+* Enter into a image in interative and tty mode
+```
+docker run -it --name ubuntu ubuntu bash
+docker run --rm -it --name ubuntu ubuntu bash
+docker exec -it ubuntu bash
+```
+
+
 * Create and execute a new nginx server with mount directory
 ```
 docker run -d -p 8080:80 --name nginx \
