@@ -19,14 +19,14 @@
 | `docker ps -a -q` | List all containers by IDs |
 
 
-
-* Executing images
+* Creating and Executing images
 
 | Command | Description |
 | ------ | --- |
 | `docker run -rm bscpaz/hello-world:latest` | Execute a new container and automatically remove it when it exits |
-| `docker run -it --name ubuntu ubuntu bash` | Execute a new ubuntu container in interative and tty mode and then execute its bash |
-| `docker run --rm -it --name ubuntu ubuntu bash` | Same of before but remove it when it exits |
+| `docker run -it --name ubuntu_1 ubuntu bash` | Execute a new ubuntu container in interative and tty mode and then execute its bash |
+| `docker run --rm -it --name ubuntu_1 ubuntu bash` | Same of before but remove it when it exits |
+| `docker run -dit --name ubuntu_2 --network my-network bash` | Execute a new bash container in dettached interative tty mode into "my-network" network |
 | `docker exec -it ubuntu bash` | Execute a existing ubuntu container opening its bash |
 | `docker attach ubuntu` | Execute a detached ubuntu in attached mode |
 
