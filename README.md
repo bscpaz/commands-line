@@ -30,6 +30,8 @@
 | `docker exec -it ubuntu bash` | Execute a existing ubuntu container opening its bash |
 | `docker attach ubuntu` | Execute a detached ubuntu in attached mode |
 
+Note: without expliciting the `--network`, the containers cannot communicate between them by theirs names. Just by theirs IPs.
+
 * Create and execute a new nginx server with a mounted directory
 ```
 docker run -d -p 8080:80 --name nginx \
@@ -59,6 +61,8 @@ docker run --rm bscpaz/hello-world:latest echo "hello, Bruno"
 | `docker network ls` | List all docker's network |
 | `docker network inspect <network>` | Inspect a docker network. i.e: "bridge" |
 | `docker network create --driver bridge my-network` | Criate a "bridge" network named as "my-network" |
+| `docker network connect my-network ubuntu_1` | Connect an existing container into an existing network |
 | `docker network prune` |Remove all custom networks not used by at least one container |
+
 
 
