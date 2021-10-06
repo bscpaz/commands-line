@@ -58,6 +58,7 @@ docker run --rm bscpaz/hello-world:latest echo "hello, Bruno"
 | --- | --- |
 | `docker network ls` | List all docker's network |
 | `docker network inspect <network>` | Inspect a docker network. i.e: "bridge" |
+| `docker network create --driver bridge my-network` | Criate a "bridge" network named as "my-network" |
 | `docker network prune` |Remove all custom networks not used by at least one container |
 
 
