@@ -8,6 +8,12 @@ docker login
 docker logout
 ```
 
+* Push a local image to DockerHub
+```
+docker push bscpaz/hello-world
+```
+
+
 * List all actived containers
 ```
 docker ps
@@ -52,4 +58,9 @@ docker run --rm bscpaz/hello-world:latest echo "hello, Bruno"
 * Remove (forced) all containers in just one command
 ```
 docker rm $(docker ps -a -q) -f
+```
+
+* List all docker's network
+```
+docker network ls
 ```
