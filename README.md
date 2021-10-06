@@ -2,6 +2,11 @@
 <p align="center">This page shows docker's commands.</p>
 
 
+* Login/Logout into DockerHub
+```
+docker login
+docker logout
+```
 
 * List all actived containers
 ```
@@ -29,7 +34,6 @@ docker run -it --name ubuntu ubuntu bash
 docker run --rm -it --name ubuntu ubuntu bash
 docker exec -it ubuntu bash
 ```
-
 
 * Create and execute a new nginx server with mount directory
 ```
