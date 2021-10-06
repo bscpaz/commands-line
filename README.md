@@ -39,6 +39,7 @@ docker run -rm bscpaz/hello-world:latest
 docker run -it --name ubuntu ubuntu bash
 docker run --rm -it --name ubuntu ubuntu bash
 docker exec -it ubuntu bash
+docker attach ubuntu
 ```
 
 * Create and execute a new nginx server with mount directory
@@ -63,4 +64,15 @@ docker rm $(docker ps -a -q) -f
 * List all docker's network
 ```
 docker network ls
+```
+
+* Remove all custom networks not used by at least one container
+```
+docker network prune
+```
+
+* Inspect a docker network
+```
+docker network inspect <network>
+docker network inspect bridge
 ```
