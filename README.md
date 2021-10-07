@@ -93,11 +93,12 @@ docker run --rm bscpaz/hello-world:latest echo "hello, Bruno"
 | `ip addr show` | Shows the IP of current linux |
 
 
-* Unzip
+* Zip/Unzip
 
 | Command | Description |
 | --- | --- |
 | `sudo apt-get install unzip` | Install Unzip package |
+| `sudo apt-get install libzip-dev -y` | Install libzip-dev package |
 | `sudo unzip path/filename.zip -d another_path_or_same_path` | Unzip a zip file from one directory to another. -d = directory |
 
 
