@@ -75,4 +75,5 @@ docker run --rm bscpaz/hello-world:latest echo "hello, Bruno"
 | --- | --- |
 | `ip addr show` | Shows the IP of current linux |
 | `apt update && apt install iproute2 -y` | Install IP package with confirmation |
+| `apt-get update && apt-get install iputils-ping -y` | Intall PING package with confirmation |
 
