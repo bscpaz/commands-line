@@ -34,7 +34,8 @@
 
 Note: without expliciting the `--network`, the containers cannot communicate between them by theirs names. Just by theirs IPs.
 
-* Create and execute a new nginx server with a mounted directory
+
+* Create and execute a detached new nginx server with a mounted directory
 ```
 docker run -d -p 8080:80 --name nginx \
       --mount type=bind,source="$(pwd)"/docker/volume/nginx/html,target=/usr/share/nginx/html nginx
@@ -47,6 +48,13 @@ docker run -d -p 8080:80 --name nginx \
 ```
 docker run --rm bscpaz/hello-world:latest echo "hello, Bruno"
 ```
+
+* Workding with existing containers
+ 
+| Command | Description |
+| --- | --- |
+| `docker start <image-name>` | Start an existing container |
+| `docker stop <image-name>` | Stop an existing container |
 
 * Removing containers
 
