@@ -84,6 +84,14 @@ docker run --rm bscpaz/hello-world:latest echo "hello, Bruno"
 | `mv file1.txt file2.txt` | Rename a file |
 
 
+* Search
+
+| Command | Description |
+| --- | --- |
+| `Ctrl + r` | Reverse-in-search |
+| `Ctrl + r` (again) | Searches backwards through your history |
+
+
 * IPs
  
 | Command | Description |
