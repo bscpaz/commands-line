@@ -106,3 +106,10 @@ docker run --rm bscpaz/hello-world:latest echo "hello, Bruno"
 | Command | Description |
 | --- | --- |
 | `sudo apt install default-jdk` | Install JDK |
+
+
+* WEB
+
+| Command | Description |
+| --- | --- |
+| `curl http://localhost` | check client URL connectivity |
