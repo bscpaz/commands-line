@@ -1,6 +1,8 @@
 <h1 align="center">Docker/Linux commands</h1>
 <p align="center">This page shows docker's or linux commands.</p>
 
+<h2 align="center">Docker commands</h2>
+
 * Working with hub.docker
  
 | Command | Description |
@@ -64,5 +66,13 @@ docker run --rm bscpaz/hello-world:latest echo "hello, Bruno"
 | `docker network connect my-network ubuntu_1` | Connect an existing container into an existing network |
 | `docker network prune` |Remove all custom networks not used by at least one container |
 
+<br><br>
+<h2 align="center">Linux commands</h2>
 
+* IPs
+ 
+| Command | Description |
+| --- | --- |
+| `ip addr show` | Shows the IP of current linux |
+| `apt update && apt install iproute2 -y` | Install IP package with confirmation |
 
