@@ -101,3 +101,8 @@ docker run --rm bscpaz/hello-world:latest echo "hello, Bruno"
 | `sudo unzip path/filename.zip -d another_path_or_same_path` | Unzip a zip file from one directory to another. -d = directory |
 
 
+* JDK
+
+| Command | Description |
+| --- | --- |
+| `sudo apt install default-jdk` | Install JDK |
