@@ -112,5 +112,6 @@ docker run --rm bscpaz/hello-world:latest echo "hello, Bruno"
 
 | Command | Description |
 | --- | --- |
-| `apt-get update && apt-get install curl -y` | install curl (client URL) |
-| `curl http://localhost` | check client URL connectivity |
+| `apt-get update && apt-get install curl -y` | Install curl (client URL) |
+| `curl http://localhost` | Check client URL connectivity |
+| `curl http://host.docker.internal:8080` | A docker container accessing a service (8080) in the host machine (my machine) |
