@@ -77,6 +77,13 @@ docker run --rm bscpaz/hello-world:latest echo "hello, Bruno"
 <br><br>
 <h2 align="center">Linux commands</h2>
 
+* Files
+
+| Command | Description |
+| --- | --- |
+| `mv file1.txt file2.txt` | Rename a file |
+
+
 * IPs
  
 | Command | Description |
@@ -84,3 +91,13 @@ docker run --rm bscpaz/hello-world:latest echo "hello, Bruno"
 | `apt update && apt install iproute2 -y` | Install IP package with confirmation |
 | `apt-get update && apt-get install iputils-ping -y` | Intall PING package with confirmation |
 | `ip addr show` | Shows the IP of current linux |
+
+
+* Unzip
+
+| Command | Description |
+| --- | --- |
+| `sudo apt-get install unzip` | Install Unzip package |
+| `sudo unzip path/filename.zip -d another_path_or_same_path` | Unzip a zip file from one directory to another. -d = directory |
+
+
