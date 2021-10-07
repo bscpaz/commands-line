@@ -9,7 +9,7 @@
 | --- | --- |
 | `docker login` | Docker Login |
 | `docker logout` | Docker Logout |
-| `docker push bscpaz/hello-world` | Push a local image to DockerHub |
+| `docker push bscpaz/hello-world` | Push a local image to hub.docker.com |
 
 
 * Showing your containers
