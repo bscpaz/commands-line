@@ -138,29 +138,5 @@ docker run --rm bscpaz/hello-world:latest echo "hello, Bruno"
 | `apt-get update && apt-get install curl -y` | Install curl (client URL) |
 | `curl http://localhost` | Check client URL connectivity |
 | `curl http://host.docker.internal:8080` | A docker container accessing a service (8080) in the host machine (my machine) |
-
-<div>
-    <table>
-        <thead>
-            <tr>
-                <th colspan="2"></th>
-            </tr>
-            <tr>
-                <th>Command</th>
-                <th>Description</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>
-    a
-                </td>
-                <td>
-    b
-                </td>
-            </tr>
-        </tbody>
-    </table>  
-</div>
  
 
