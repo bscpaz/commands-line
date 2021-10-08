@@ -74,6 +74,12 @@ docker run --rm bscpaz/hello-world:latest echo "hello, Bruno"
 | `docker network connect my-network ubuntu_1` | Connect an existing container into an existing network |
 | `docker network prune` |Remove all custom networks not used by at least one container |
 
+* Checking LOGs
+
+| Command | Description |
+| --- | --- |
+| `docker logs <container-name>` | Remove (forced) a container |
+
 <br><br>
 <h2 align="center">Linux commands</h2>
 
