@@ -91,11 +91,12 @@ docker run --rm bscpaz/hello-world:latest echo "hello, Bruno"
 <br><br>
 <h2 align="center">Linux commands</h2>
 
-* Files
+* Files / Directories
 
 | Command | Description |
 | --- | --- |
 | `mv file1.txt file2.txt` | Rename a file |
+| `cd -` | Returns to the last directory |
 
 
 * Search
