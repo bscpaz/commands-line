@@ -131,6 +131,12 @@ docker run --rm bscpaz/hello-world:latest echo "hello, Bruno"
 | `sudo apt install default-jdk` | Install JDK |
 
 
+* SSH
+
+| Command | Description |
+| --- | --- |
+| `ssh-keygen -t rsa -b 4096` | Generates a SSH key par |
+
 * WEB
 
 | Command | Description |
