@@ -7,7 +7,7 @@
 | `mv file1.txt file2.txt` | Rename a file |
 | `rm -dr <dir-name>` | Remove a non-empty dir recursively |
 | `cd -` | Returns to the last directory |
-
+| `ln -s <dir> <link-name>`| Creates a simbolic link |
 
 
 * Search
