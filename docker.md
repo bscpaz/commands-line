@@ -84,3 +84,9 @@ docker run --rm bscpaz/hello-world:latest echo "hello, Bruno"
 | Command | Description |
 | --- | --- |
 | `docker logs <container-name>` | Remove (forced) a container |
+
+* Docker-compose
+
+| Command | Description |
+| --- | --- |
+| `docker-compose up -d` | Up a docker-compose in detached mode |
