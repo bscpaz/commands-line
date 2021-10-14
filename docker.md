@@ -90,3 +90,4 @@ docker run --rm bscpaz/hello-world:latest echo "hello, Bruno"
 | Command | Description |
 | --- | --- |
 | `docker-compose up -d` | Up a docker-compose in detached mode |
+| `docker-compose ps` | Show only docker-compose's containers running |
