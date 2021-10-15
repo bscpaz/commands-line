@@ -47,10 +47,11 @@
 | `sudo apt install default-jdk` | Install JDK |
 
 
-* Permissions
+* User / Permissions
 
 | Command | Description |
 | --- | --- |
+| `su bscpaz` | Change user |
 | `chown -R bscpaz:bscpaz <dir>` | Change owner recursively to user:group in `<dir>` folder |
 
 
