@@ -16,6 +16,7 @@
 | --- | --- |
 | `Ctrl + r` | Reverse-in-search |
 | `Ctrl + r` (again) | Searches backwards through your history |
+| `which <program>` | Shows the location of a program |
 
 
 * IPs
