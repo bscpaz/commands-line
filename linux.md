@@ -34,6 +34,10 @@
 | `sudo apt-get install unzip` | Install Unzip package |
 | `sudo apt-get install libzip-dev -y` | Install libzip-dev package |
 | `sudo unzip path/filename.zip -d another_path_or_same_path` | Unzip a zip file from one directory to another. -d = directory |
+| `tar -xvf sampleArchive.tar.gz` | Unzip a tar.gz. x=extract; v=vervose; f=file |
+| `tar -xvf sampleArchive.tar.gz` | Unzip a tar.gz. x=extract; v=vervose; f=file |
+| `tar -xvf sampleArchive.tar.gz -C /home/ExtractedFiles/`| Unzip a tar.gz. -C=target directory |
+
 
 
 * JDK
