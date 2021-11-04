@@ -78,6 +78,14 @@ docker run --rm bscpaz/hello-world:latest echo "hello, Bruno"
 | `docker build -t <image-name> .` | Build a image from a default Dockerfile in current directory (.) |
 | `docker build -t <image-name> . -f Dockerfile.prod` | Build a image from a specific Dockerfile (prod) in current directory |
 
+* Volumes
+
+| Command | Description |
+| --- | --- |
+| `docker volume ls` | List all volumes |
+| `docker volume rm $(docker volume ls -q)` | Remove non-used volumes |
+| `docker-compose down --volumes` | Remove volumes |
+
 
 * Checking LOGs
 
