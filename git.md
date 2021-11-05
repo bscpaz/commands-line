@@ -1,6 +1,10 @@
+<h2 align="center">GIT commands</h2>
 
-
+* Credentials configurations:
 ```console
 bscpaz@2am:/$ git config --global user.name "Bruno Paz"
 bscpaz@2am:/$ git config --global user.email "soujava@gmail.com"
+
+bscpaz@2am:/$ git config --local user.name "Bruno Paz"
+bscpaz@2am:/$ git config --local user.email "soujava@gmail.com"
 ```
