@@ -8,3 +8,12 @@ bscpaz@2am:/$ git config --global user.email "soujava@gmail.com"
 bscpaz@2am:/$ git config --local user.name "Bruno Paz"
 bscpaz@2am:/$ git config --local user.email "soujava@gmail.com"
 ```
+
+* Show the credentials configurations:
+```console
+bscpaz@2am:/$ git config --global user.name
+bscpaz@2am:/$ git config --global user.email
+
+bscpaz@2am:/$ git config --local user.name
+bscpaz@2am:/$ git config --local user.email
+```
