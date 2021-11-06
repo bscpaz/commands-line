@@ -3,6 +3,7 @@
 * Credentials configurations:
 ```console
 bscpaz@2am:/$ git config core.sshCommand 'ssh -i "/home/bscpaz/.ssh/id_rsa"'
+bscpaz@2am:/$ git remote set-url origin git@github.com:bscpaz/<repository>
 
 bscpaz@2am:/$ git config --global user.name "Bruno Paz"
 bscpaz@2am:/$ git config --global user.email "soujava@gmail.com"
