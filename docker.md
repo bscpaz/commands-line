@@ -84,7 +84,10 @@ docker run --rm bscpaz/hello-world:latest echo "hello, Bruno"
 | --- | --- |
 | `docker volume ls` | List all volumes |
 | `docker volume rm $(docker volume ls -q)` | Remove non-used volumes |
+| `docker volume inspect <id>` | Inspect a volume |
 | `docker-compose down --volumes` | Remove volumes |
+
+
 
 
 * Checking LOGs
