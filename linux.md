@@ -71,3 +71,10 @@
 | `curl http://localhost` | Check client URL connectivity |
 | `curl http://host.docker.internal:8080` | A docker container accessing a service (8080) in the host machine (my machine) |
  
+ * Environment variables
+
+| Command | Description |
+| --- | --- |
+| `vim ~/.profile` | edit .profile file to export variables |
+| `source ~/.profile` | reload .profile file |
+ 
