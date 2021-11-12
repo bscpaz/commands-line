@@ -8,6 +8,7 @@
 | `rm -dr <dir-name>` | Remove a non-empty dir recursively |
 | `cd -` | Returns to the last directory |
 | `ln -s <dir> <link-name>`| Creates a simbolic link |
+| `mkdir -p br/com/bscpaz/user`| Creates multiple folders at once |
 
 
 * Search
