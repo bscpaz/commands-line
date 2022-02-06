@@ -79,5 +79,6 @@
 | `vim ~/.profile` | edit .profile file to export variables |
 | `source ~/.profile` | reload .profile file |
 | `nproc`| Shows the number of processing units available |
+| `free -m`| Check memory info |
 | `sudo cat /etc/passwd` | List all users |
  
