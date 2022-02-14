@@ -42,12 +42,19 @@
 
 
 
-* JDK
+* To install JDK
 
 | Command | Description |
 | --- | --- |
 | `sudo apt install default-jdk` | Install JDK |
 
+* To change JDK
+
+| Command | Description |
+| --- | --- |
+| `which java` | To find JDK's path |
+| `sudo rm -r /usr/lib/jvm/java-11-openjdk-amd64` | Remove undesired version |
+| `sudo apt-get update && install openjdk-8-jdk -y` | Install Open JDK 8 |
 
 * User / Permissions
 
