@@ -40,8 +40,6 @@
 | `tar -xvf sampleArchive.tar.gz` | Unzip a tar.gz. x=extract; v=vervose; f=file |
 | `tar -xvf sampleArchive.tar.gz -C /home/ExtractedFiles/`| Unzip a tar.gz. -C=target directory |
 
-
-
 * To install JDK
 
 | Command | Description |
@@ -55,6 +53,10 @@
 | `which java` | To find JDK's path |
 | `sudo rm -r /usr/lib/jvm/java-11-openjdk-amd64` | Remove undesired version |
 | `sudo apt-get update && install openjdk-8-jdk -y` | Install Open JDK 8 |
+| `vim ~/.bashrc` | File to update the JAVA_HOME |
+| `export JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"` | New path of JAVA_HOME |
+| `source .bashrc` | Update settings |
+
 
 * User / Permissions
 
