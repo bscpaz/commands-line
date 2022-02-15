@@ -2,6 +2,8 @@
 
 ### Restoring WSL2 after new instalation
  * See https://github.com/codeedu/wsl2-docker-quickstart
+
+ #### Recover the old Ubuntu installation:
  * Backup your old .vhdx putting it in ```D:\AppData\Local\Packages\Backup\``` path;
  * After installing WSL 2, open Power Shell in admin mode;
  * Execute the following commands to change the location of .vhdx file:
@@ -14,7 +16,19 @@ wsl --unregister Ubuntu
 wsl --import Ubuntu D:\AppData\Local\Packages\UbuntuonWindows D:\AppData\Local\Packages\Backup\ubuntu.tar
 ```
  * Replace the new .vhdx by your backup file.
- * To change the default user, open the Windows Terminal program:
+
+ #### Reset root password:
+ * Log-in the ubuntu with root user.
+```console
+root@host:~# whoami
+root
+root@host:~# passwd
+enter new UNIX password: <YOUR NEW PASSWORD>
+retype new UNIX password: <YOUR NEW PASSWORD>
+passwd: password updated successfully
+```
+ #### Change default user
+ * Open the Windows Terminal program:
 ```console
 cd C:\Users\bscpaz\AppData\Local\Microsoft\WindowsApps\CanonicalGroupLimited.UbuntuonWindows_***
 ./ubuntu config --default-user bscpaz (yes, with "./" instruction)
