@@ -95,6 +95,7 @@
 
 | Command | Description |
 | --- | --- |
+| `apt list --upgradable` | List upgradeable packages. |
 | `sudo apt-get update` | Update the versions list of packages availables. |
 | `sudo apt-get upgrade` | Upgrade the packages installed on the system.  |
 | `sudo apt-get dist-upgrade` | Upgrades or removes packages as needed. |
