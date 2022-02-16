@@ -90,4 +90,15 @@
 | `nproc`| Shows the number of processing units available |
 | `free -m`| Check memory info |
 | `sudo cat /etc/passwd` | List all users |
+
+ * Tp Update Linux
+
+| Command | Description |
+| --- | --- |
+| `sudo apt-get update` | Update the versions list of packages availables. |
+| `sudo apt-get upgrade` | Upgrade the packages installed on the system.  |
+| `sudo apt-get dist-upgrade` | Upgrades or removes packages as needed. |
+
+
+
  
