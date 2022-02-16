@@ -91,7 +91,7 @@
 | `free -m`| Check memory info |
 | `sudo cat /etc/passwd` | List all users |
 
- * Tp Update Linux
+ * To update packages on Linux
 
 | Command | Description |
 | --- | --- |
