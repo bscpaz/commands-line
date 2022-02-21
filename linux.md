@@ -18,6 +18,8 @@
 | `Ctrl + r` | Reverse-in-search |
 | `Ctrl + r` (again) | Searches backwards through your history |
 | `which <program>` | Shows the location of a program |
+| `ls -la | grep <some word>` | Filter names with some 'word' in a directory |
+
 
 
 * IPs
