@@ -112,8 +112,8 @@ Issue:
   After running docker-compose up --build, you get:
   "ADD failed: file not found in build context or excluded by .dockerignore: stat 'some file': file does not exist"
 Solution: 
-  You are operating fom 'build:context' of your docker-compose file (not from the root).
-  Use ../ to navigate correctly on path or move files as a subfolder of the context.
+  You are operating from a subfolder of the root which the docker-compose file exists.
+  Check your 'project:build:context' in docker-compose file and change it to "." context (the root, not a subfolder).
 ```
 
 
