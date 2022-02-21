@@ -103,3 +103,17 @@ docker run --rm bscpaz/hello-world:latest echo "hello, Bruno"
 | `docker-compose up -d` | Up a docker-compose in detached mode |
 | `docker-compose up -d --build` | Up a docker-compose in detached mode rebuilding all images |
 | `docker-compose ps` | Show only docker-compose's containers running |
+
+<hr>
+<h4 align="center">Known issues</h4>
+
+```
+Issue: 
+  After running docker-compose up --build, you get:
+  "ADD failed: file not found in build context or excluded by .dockerignore: stat 'some file': file does not exist"
+Solution: 
+  You are operating fom 'build:context' of your docker-compose file (not from the root).
+  Use ../ to navigate correctly on path or move files as a subfolder of the context.
+```
+
+
