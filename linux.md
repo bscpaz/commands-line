@@ -73,6 +73,7 @@
 
 | Command | Description |
 | --- | --- |
+| `ssh -p 22 myUser@IP` | connect to some server |
 | `ssh-keygen -t rsa -b 4096` | Generates a SSH key par |
 
 * WEB
