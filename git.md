@@ -20,3 +20,23 @@ bscpaz@2am:/$ git config --global user.email
 bscpaz@2am:/$ git config --local user.name
 bscpaz@2am:/$ git config --local user.email
 ```
+
+<hr>
+<h4 align="center">Known issues</h4>
+
+```console
+Issue:
+  Clonning a git repository using WSL2
+
+  bscpaz@2am:/$ git clone git@github.com:bscpaz/<some-repo>
+  Cloning into '<some-repo>'...
+  ssh: connect to host github.com port 22: Connection timed out
+  fatal: Could not read from remote repository.
+
+  Please make sure you have the correct access rights
+  and the repository exists.
+  
+Solution:
+
+``` 
+
