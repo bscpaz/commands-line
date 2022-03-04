@@ -38,7 +38,7 @@ Issue:
   
 Solution:
   - First, check if your WSL2 can run a "sudo apt-get update". If not, it's a general problem.
-    exemploe: "101: Network is unreachable"
+    exemple: "101: Network is unreachable"
   - 
 ``` 
 
