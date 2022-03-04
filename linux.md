@@ -19,7 +19,10 @@
 | `Ctrl + r` (again) | Searches backwards through your history |
 | `which <program>` | Shows the location of a program |
 | `ls -la \| grep <some word>` | Filter names with some 'word' in a directory |
-
+| `find <initial path> -type f -iname <file>` | Search for a file |
+| `find <initial path> -type f -iname '*.<extension>'` | Search for files with a specific extension |
+| `find <initial path> -type f -not -iname '*.<extension>'` | Search for files except a specific extension |
+| `find <initial path> -type d -iname <directory>` | Search for a directory |
 
 
 * IPs
