@@ -38,14 +38,7 @@ Issue:
   
 Solution:
   - First, check if your WSL2 can run a "sudo apt-get update". If not, it's a general problem.
-  - Run the PowerShell in adm mode:
-    wsl --shutdown
-    netsh winsock reset
-    netsh int ip reset all
-    netsh winhttp reset proxy
-    ipconfig /flushdns
-    netsh winsock reset
-shutdown /r 
-
+    exemploe: "101: Network is unreachable"
+  - 
 ``` 
 
