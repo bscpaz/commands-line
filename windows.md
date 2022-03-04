@@ -39,3 +39,8 @@ cd C:\Users\bscpaz\AppData\Local\Microsoft\WindowsApps\CanonicalGroupLimited.Ubu
 
 ### Change name of Window's user folder
   * See youtube video: Y5_Q2BmTx3Y
+
+### Generate ssh-key
+```console
+ssh-keygen -m PEM -t RSA -b 4096
+```
