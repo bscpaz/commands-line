@@ -26,7 +26,7 @@ bscpaz@2am:/$ git config --local user.email
 
 ```console
 Issue:
-  Clonning a git repository using WSL2
+  Clonning a git repository using WSL2 occurs timeout on port 22 or 443
 
   bscpaz@2am:/$ git clone git@github.com:bscpaz/<some-repo>
   Cloning into '<some-repo>'...
