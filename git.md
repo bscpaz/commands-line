@@ -37,6 +37,8 @@ Issue:
   and the repository exists.
   
 Solution:
+  - First, check if your WSL2 can run a "sudo apt-get update". If not, it's a general problem.
+  - 
 
 ``` 
 
