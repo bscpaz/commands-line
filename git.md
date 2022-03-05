@@ -38,7 +38,6 @@ Issue:
   
 Solution:
   - First, check if your WSL2 can run a "sudo apt-get update". If not, it's a general problem.
-    exemple: "101: Network is unreachable"
-  - 
+  - Turn off your VPN and try again.
 ``` 
 
