@@ -34,6 +34,11 @@ cd C:\Users\bscpaz\AppData\Local\Microsoft\WindowsApps\CanonicalGroupLimited.Ubu
 ./ubuntu config --default-user bscpaz (yes, with "./" instruction)
 ``` 
 
+### Accessing directy wsl directory
+```console
+\\wsl$
+```
+
 ### Remove Caps Lock on screen
   * Disable OSD under Control Center 3.0 program
 
