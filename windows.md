@@ -51,3 +51,4 @@ ssh-keygen -m PEM -t RSA -b 4096
 ```
 ### Problem with connectivity using WSL2
 * Make sure that your wireless configurations is a private and a reliable connection (not a public).
+* Make sure that you are not using a VPN connection.
