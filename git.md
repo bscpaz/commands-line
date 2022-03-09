@@ -21,10 +21,11 @@ bscpaz@2am:/$ git config --local user.name
 bscpaz@2am:/$ git config --local user.email
 ```
 
-* Git clone:
+* Git clone / remote:
 ```console
 bscpaz@2am:/$ git clone -o <remote name> git@github.com:bscpaz/<repository>
 bscpaz@2am:/$ git remote add <remote name> https://git....
+bscpaz@2am:/$ git remote -v
 ```
 
 
