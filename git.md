@@ -21,6 +21,12 @@ bscpaz@2am:/$ git config --local user.name
 bscpaz@2am:/$ git config --local user.email
 ```
 
+* Git clone:
+```console
+bscpaz@2am:/$ git clone -o <remote name> git@github.com:bscpaz/<repository>
+```
+
+
 <hr>
 <h4 align="center">Known issues</h4>
 
