@@ -28,6 +28,14 @@ bscpaz@2am:/$ git remote add <remote name> https://git....
 bscpaz@2am:/$ git remote -v
 ```
 
+* Branch:
+
+| Command | Description |
+| --- | --- |
+| `git branch` | List all branches |
+| `git branch -D <branch name>` | Remove a branch |
+| `git checkout -b <branch name> --track <remote>/<branch>` | Checkout to a new branch using a specific remote |
+
 
 <hr>
 <h4 align="center">Known issues</h4>
