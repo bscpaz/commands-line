@@ -35,6 +35,7 @@ bscpaz@2am:/$ git remote -v
 | `git branch` | List all branches |
 | `git branch -D <branch name>` | Remove a branch |
 | `git checkout -b <branch name> --track <remote>/<branch>` | Checkout to a new branch using a specific remote |
+| `git checkout <branch name>` | Checkout to a existing branch |
 
 
 <hr>
