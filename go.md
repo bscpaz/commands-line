@@ -19,3 +19,9 @@ cd src
 ```console
 mkdir -p github.com/bscpaz/my-new-go-project
 ```
+```console
+cd github.com/bscpaz/my-new-go-project
+```
+```console
+code .
+```
