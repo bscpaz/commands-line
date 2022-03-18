@@ -23,6 +23,9 @@ mkdir -p github.com/bscpaz/my-new-go-project
 cd github.com/bscpaz/my-new-go-project
 ```
 ```console
+go mod init github.com/bscpaz/my-new-go-project
+```
+```console
 code .
 ```
 #### Running a Go
