@@ -1,6 +1,6 @@
 <h2 align="center">Go Lang</h2>
 
-## Initials configurations
+### Initials configurations
 Check for informtation on https://go.dev/doc/install
 
 #### Environment configurations
@@ -12,7 +12,7 @@ Check for informtation on https://go.dev/doc/install
 ```console
 go env
 ```
-#### Creating a new project
+### Working with a new project
 ```console
 cd src
 ```
@@ -24,4 +24,16 @@ cd github.com/bscpaz/my-new-go-project
 ```
 ```console
 code .
+```
+#### Running a Go
+```console
+go run <name of file>
+```
+#### Compiling a Go
+```console
+go build <name of file>
+```
+#### Installing a Go
+```console
+go install
 ```
