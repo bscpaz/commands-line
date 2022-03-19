@@ -30,11 +30,14 @@ code .
 ```
 #### Running a Go
 ```console
-go run <name of file>
+go run <name of file>.go
 ```
 #### Compiling a Go
 ```console
-go build <name of file>
+go build <name of file>.go
+```
+```console
+GOOS=windows go build <name of file>.go
 ```
 #### Installing a Go
 ```console
