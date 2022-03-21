@@ -1,5 +1,11 @@
 <h2 align="center">Linux commands</h2>
 
+* Vim
+
+| Command | Description |
+| --- | --- |
+| `u` | Undo or like "Ctrl + z" |
+
 * Files / Directories
 
 | Command | Description |
