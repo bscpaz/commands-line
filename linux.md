@@ -5,6 +5,7 @@
 | Command | Description |
 | --- | --- |
 | `u` | Undo or like "Ctrl + z" |
+| `v` | Visual mode |
 
 * Files / Directories
 
@@ -113,6 +114,32 @@
 | `sudo apt-get upgrade` | Upgrade the packages installed on the system.  |
 | `sudo apt-get dist-upgrade` | Upgrades or removes packages as needed. |
 
+## Customizations
 
+### Prompt
+##### Change .bashrc file
+```console
+cd ~
+````
+```console
+vim .bashrc
+````
+#### Replace and add the following instructions
+```console
+BGreen='01;32m' #Bold + Green
+BRed='01;31m'   #Bold + Red
+BBlue='01;34m'  #Bold + Blue
+
+PROMPT_COMMAND='case $PWD in
+        $HOME) HPWD="~";;
+        *) HPWD="${PWD#"${PWD%/*}/"}";;
+esac'
+
+if [ "$color_prompt" = yes ]; then
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[$BGreen\]\u@\h\[\033[00m\]:\[\033[$BBlue\]$HPWD\[\033[00m\]\$ '
+else
+    PS1='${debian_chroot:+($debian_chroot)}\u@\h:$HPWD\$ '
+fi
+```
 
  
