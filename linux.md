@@ -114,6 +114,16 @@
 | `sudo apt-get upgrade` | Upgrade the packages installed on the system.  |
 | `sudo apt-get dist-upgrade` | Upgrades or removes packages as needed. |
 
+
+ * Uninstall node and npm
+
+| Command | Description |
+| --- | --- |
+| `sudo apt-get remove nodejs` | Uninstall node. |
+| `sudo apt-get purge nodejs` | Remove both the package and the configuration files. |
+| `sudo apt-get uninstall npm` | Uninstall npm. |
+| `sudo apt-get autoremove` | Remove any unused files and free up the disk space |
+ 
 ## Customizations
 
 ### Prompt
