@@ -122,7 +122,7 @@
 | --- | --- |
 | `sudo apt-get remove nodejs` | Uninstall node. |
 | `sudo apt-get purge nodejs` | Remove both the package and the configuration files. |
-| `sudo apt-get uninstall npm` | Uninstall npm. |
+| `sudo apt-get remove npm` | Uninstall npm. |
 | `sudo apt-get autoremove` | Remove any unused files and free up the disk space |
  
 ## Customizations
