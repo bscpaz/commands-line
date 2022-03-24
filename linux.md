@@ -99,6 +99,7 @@
 
 | Command | Description |
 | --- | --- |
+| `cat /etc/os-release`| Version of Linux|
 | `vim ~/.profile` | edit .profile file to export variables |
 | `source ~/.profile` | reload .profile file |
 | `nproc`| Shows the number of processing units available |
