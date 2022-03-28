@@ -116,4 +116,15 @@ Solution:
   Check your 'project:build:context' in docker-compose file and change it to "." context (the root, not a subfolder).
 ```
 
+```
+Issue: 
+  Error response from daemon: manifest for netflixoss/zuul:latest not found: manifest unknown: manifest unknown
+Solution: 
+  That's because there is only one version 1.0.28 available for image netflixoss/zuul. 
+  There is no default "latest" version for the image.
+  Change your docker-compose file to "image: netflixoss/zuul:1.0.28"
+```
+
+
+
 
