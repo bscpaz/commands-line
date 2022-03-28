@@ -1,43 +1,74 @@
 <h2 align="center">GIT commands</h2>
 
-* Credentials configurations:
+## Configurations
+#### Rename a remote source
 ```console
-bscpaz@2am:/$ git config core.sshCommand 'ssh -i "/home/bscpaz/.ssh/id_rsa"'
-bscpaz@2am:/$ git remote set-url origin git@github.com:bscpaz/<repository>
-
-bscpaz@2am:/$ git config --global user.name "Bruno Paz"
-bscpaz@2am:/$ git config --global user.email "soujava@gmail.com"
-
-bscpaz@2am:/$ git config --local user.name "Bruno Paz"
-bscpaz@2am:/$ git config --local user.email "soujava@gmail.com"
+git remote -v
+```
+```console
+git remote rename <old> <new>
+ ```
+#### Credentials configurations:
+```console
+git config core.sshCommand 'ssh -i "/home/bscpaz/.ssh/id_rsa"'
+```
+```console
+git remote set-url origin git@github.com:bscpaz/<repository>
+```
+```console
+git config --global user.name "Bruno Paz"
+```
+```console
+git config --global user.email "soujava@gmail.com"
+```
+```console
+git config --local user.name "Bruno Paz"
+```
+```console
+git config --local user.email "soujava@gmail.com"
 ```
 
-* Show the credentials configurations:
+#### Show the credentials configurations:
 ```console
-bscpaz@2am:/$ git config --global user.name
-bscpaz@2am:/$ git config --global user.email
-
-bscpaz@2am:/$ git config --local user.name
-bscpaz@2am:/$ git config --local user.email
+git config --global user.name
+```
+```console
+git config --global user.email
+```
+```console
+git config --local user.name
+```
+```console
+git config --local user.email
 ```
 
-* Git clone / remote:
+#### Git clone / remote:
 ```console
-bscpaz@2am:/$ git clone -o <remote name> git@github.com:bscpaz/<repository>
-bscpaz@2am:/$ git remote add <remote name> https://git....
-bscpaz@2am:/$ git remote -v
+git clone -o <remote name> git@github.com:bscpaz/<repository>
+```
+```console
+git remote add <remote name> https://git....
 ```
 
-* Branch:
+## Commons commands
+### Branch:
 
-| Command | Description |
-| --- | --- |
-| `git branch` | List all branches |
-| `git branch -D <branch name>` | Remove a branch |
-| `git checkout -b <branch name> --track <remote>/<branch>` | Checkout to a new branch using a specific remote |
-| `git checkout <branch name>` | Checkout to a existing branch |
-
-
+###### List all branches
+```console
+git branch
+```
+###### Remove a branch
+```console
+git branch -D <branch name>
+```
+###### Checkout to a new branch using a specific remote
+```console
+git checkout -b <branch name> --track <remote>/<branch>
+```
+###### Checkout to a existing branch
+```console
+git checkout <branch name>
+```
 <hr>
 <h4 align="center">Known issues</h4>
 
