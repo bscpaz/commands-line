@@ -1,22 +1,34 @@
 <h2 align="center">Linux commands</h2>
 
-* Vim
+#### Vim
 
 | Command | Description |
 | --- | --- |
 | `u` | Undo or like "Ctrl + z" |
 | `v` | Visual mode |
 
-* Files / Directories
+#### Files / Directories
 
-| Command | Description |
-| --- | --- |
-| `mv file1.txt file2.txt` | Rename a file |
-| `rm -dr <dir-name>` | Remove a non-empty dir recursively |
-| `cd -` | Returns to the last directory |
-| `ln -s <dir> <link-name>`| Creates a simbolic link |
-| `mkdir -p br/com/bscpaz/user`| Creates multiple folders at once |
-
+##### Rename a file
+```console
+mv file1.txt file2.txt
+```
+##### Remove a non-empty dir recursively
+```console
+rm -dr <dir-name>
+```
+##### Creates a simbolic link
+```console
+ln -s <dir> <link-name>
+```
+##### Creates multiple folders at once
+```console
+mkdir -p br/com/bscpaz/user
+```
+##### Returns to the last directory
+```console
+cd -
+```
 
 * Search
 
