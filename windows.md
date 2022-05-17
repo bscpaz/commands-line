@@ -39,6 +39,11 @@ cd C:\Users\bscpaz\AppData\Local\Microsoft\WindowsApps\CanonicalGroupLimited.Ubu
 \\wsl$
 ```
 
+### Showing which system is running on wsl.
+```
+wsl --list -v
+```
+
 ### Remove Caps Lock on screen
   * Disable OSD under Control Center 3.0 program
 
