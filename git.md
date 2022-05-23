@@ -69,6 +69,10 @@ git checkout -b <branch name> --track <remote>/<branch>
 ```console
 git checkout <branch name>
 ```
+###### Rename a existing branch
+```console
+git branch -m <new name>
+```
 <hr>
 <h4 align="center">Known issues</h4>
 
