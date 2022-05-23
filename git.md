@@ -73,6 +73,10 @@ git checkout <branch name>
 ```console
 git branch -m <new name>
 ```
+###### Change author of commit
+```console
+git commit --amend --author="Bruno Paz<soujava@gmail.com>"
+```
 <hr>
 <h4 align="center">Known issues</h4>
 
