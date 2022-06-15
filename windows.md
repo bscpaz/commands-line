@@ -57,3 +57,26 @@ ssh-keygen -m PEM -t RSA -b 4096
 ### Problem with connectivity using WSL2
 * Make sure that your wireless configurations is a private and a reliable connection (not a public).
 * Make sure that you are not using a VPN connection.
+
+### Windows' crash after blue screen
+If you see the message as following
+```console
+Reboot and Select proper Boot device
+or Insert Boot Media in selected Boot device and press a key
+```
+Try this:
+* Restart the computer, press DEL key;
+* On setup, go to "Boot" tab;
+* Choose "UEFI Hard Disk Drive BBS Priorities" option;
+* Turn "Boot Option #1" from disable to "Windows Boot Manager (NVme Cl1-8D128)".
+
+If, although, you see the message as following:
+```console
+Secure Boot Violation
+Invalid signature detected. Check Secure Boot Policy in Setup
+```
+Try this:
+* Restart the computer, press DEL key;
+* On setup, go to "Boot" tab;
+* Disable "Secure Boot" option.
+
