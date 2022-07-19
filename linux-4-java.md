@@ -4,7 +4,7 @@
 
 ### Maven config
 
-Installing distribution file
+#### Installing distribution file
 
 ```bash
 wget https://dlcdn.apache.org/maven/maven-3/3.8.6/binaries/apache-maven-3.8.6-bin.tar.gz -P /tmp
@@ -18,8 +18,7 @@ sudo tar xf /tmp/apache-maven-*.tar.gz -C /opt
 sudo ln -s /opt/apache-maven-3.8.6 /opt/maven
 ```
 
-
-Setup environment variables
+#### Setup environment variables
 
 ```bash
 sudo vim /etc/profile.d/maven.sh
@@ -40,8 +39,20 @@ sudo chmod +x /etc/profile.d/maven.sh
 source /etc/profile.d/maven.sh
 ```
 
-Verify the installation
+#### Verify the installation
 
 ```bash
 mvn -version
 ```
+
+#### VSCode configuration
+
+###### On VSCode, Close and Open to reload.
+###### Add the following path as the picture below:
+
+```bash
+/opt/apache-maven-3.8.6/bin/mvn
+```
+
+![image](https://user-images.githubusercontent.com/9732874/179816973-fea7dee0-e628-4b6e-92a4-b48b5b4f788c.png)
+
