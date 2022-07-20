@@ -2,6 +2,22 @@
 
 ## Environment
 
+### Installing OpenJDK 8
+
+#### Dowload the jdk-8u202-linux-x64.tar.gz
+
+```bash
+cp /mnt/d/Users/bscpaz/Downloads/jdk-8u202-linux-x64.tar.gz /tmp
+```
+
+```bash
+sudo tar xf /tmp/jdk-8u202-linux-x64.tar.gz -C /usr/lib/jvm
+```
+
+```bash
+cd /usr/lib/jvm
+```
+
 ### Maven config
 
 #### Installing distribution file
