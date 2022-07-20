@@ -17,7 +17,7 @@ mv file1.txt file2.txt
 ```console
 rm -dr <dir-name>
 ```
-##### Creates a simbolic link
+##### Creates a symbolic link
 ```console
 ln -s <dir> <link-name>
 ```
