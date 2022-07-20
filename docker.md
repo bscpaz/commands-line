@@ -109,6 +109,13 @@ docker run --rm bscpaz/hello-world:latest echo "hello, Bruno"
 
 ```
 Issue: 
+  Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
+Solution: 
+  Run "sudo service docker start" on terminal
+```
+
+```
+Issue: 
   After running docker-compose up --build, you get:
   "ADD failed: file not found in build context or excluded by .dockerignore: stat 'some file': file does not exist"
 Solution: 
