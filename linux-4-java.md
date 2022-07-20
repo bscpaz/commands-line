@@ -18,6 +18,31 @@ sudo tar xf /tmp/jdk-8u202-linux-x64.tar.gz -C /usr/lib/jvm
 cd /usr/lib/jvm
 ```
 
+```bash
+sudo ln -s jdk1.8.0_202 default-java
+```
+
+```bash
+sudo vim /etc/profile.d/jdk.sh
+```
+
+```file
+export JAVA_HOME=/usr/lib/jvm/default-java
+export PATH=${JAVA_HOME}/bin:${PATH}
+```
+
+```bash
+sudo chmod +x /etc/profile.d/jdk.sh
+```
+
+```bash
+source /etc/profile.d/jdk.sh
+```
+
+```bash
+java -version
+```
+
 ### Maven config
 
 #### Installing distribution file
@@ -41,7 +66,6 @@ sudo vim /etc/profile.d/maven.sh
 ```
 
 ```file
-export JAVA_HOME=/usr/lib/jvm/default-java
 export M2_HOME=/opt/maven
 export MAVEN_HOME=/opt/maven
 export PATH=${M2_HOME}/bin:${PATH}
