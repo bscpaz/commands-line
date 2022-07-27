@@ -5,6 +5,7 @@
 | Command | Description |
 | --- | --- |
 | `docker login` | Docker Login |
+| `docker login registry.cnj.jus.br` | Docker Login on CNJ |
 | `docker logout` | Docker Logout |
 | `docker push bscpaz/hello-world` | Push a local image to hub.docker.com |
 
