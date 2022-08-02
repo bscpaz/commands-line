@@ -80,3 +80,13 @@ Try this:
 * On setup, go to "Boot" tab;
 * Disable "Secure Boot" option.
 
+### Configuring Wildfly on Windows
+
+```console
+cd D:\Trabalho\wildfly-18.0.1.Final\standalone\configuration 
+```
+
+```console
+ keytool -genkey -alias server -keyalg RSA -keystore application.keystore
+```
+For example: use the password as 'password'.
