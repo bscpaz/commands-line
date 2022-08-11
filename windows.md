@@ -4,12 +4,14 @@
 ```bash
 sudo apt-get purge xrdp
 ```
-
 ```bash
 sudo apt install -y xrdp
 ```
 ```bash
 sudo apt install -y xfce4
+```
+```bash
+sudo apt install -y xfce4-goodies
 ```
 
 ### Restoring WSL2 after new instalation
