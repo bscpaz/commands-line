@@ -46,7 +46,10 @@ java -version
 ### Installing Eclipse in WSL2
 
 ```bash
-apt install libswt-gtk-4-jni
+sudo apt install libswt-gtk-4-jni
+```
+```bash
+sudo apt install openjdk-8-jdk
 ```
 
 ### Maven config
