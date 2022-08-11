@@ -31,6 +31,14 @@ echo xfce4-session > ~/.xsession
 ```bash
 sudo vim /etc/xrdp/startwm.sh
 ```
+```bash
+# test -x /etc/X11/Xsession && exec /etc/X11/Xsession
+# exec /bin/sh /etc/X11/Xsession
+startxfce4
+```
+```bash
+sudo /etc/init.d/xrdp start
+```
 
 ### Restoring WSL2 after new instalation
  * See https://github.com/codeedu/wsl2-docker-quickstart
