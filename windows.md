@@ -1,4 +1,16 @@
-<h2 align="center">Windows helper</h2>
+<h2 align="center">WSL2/Windows helper</h2>
+
+### Adding GUI into WSL2
+```bash
+sudo apt-get purge xrdp
+```
+
+```bash
+sudo apt install -y xrdp
+```
+```bash
+sudo apt install -y xfce4
+```
 
 ### Restoring WSL2 after new instalation
  * See https://github.com/codeedu/wsl2-docker-quickstart
