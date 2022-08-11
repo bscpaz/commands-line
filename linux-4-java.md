@@ -43,6 +43,12 @@ source /etc/profile.d/jdk.sh
 java -version
 ```
 
+### Installing Eclipse in WSL2
+
+```bash
+apt install libswt-gtk-4-jni
+```
+
 ### Maven config
 
 #### Installing distribution file
