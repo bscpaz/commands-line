@@ -52,7 +52,9 @@ sudo apt-get purge xrdp
 ```bash
 sudo apt install -y xrdp
 ```
-
+```bash
+sudo apt install -y xfce4
+```
 ```bash
 sudo apt install libswt-gtk-4-jni
 ```
