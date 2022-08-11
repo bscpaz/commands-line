@@ -13,6 +13,24 @@ sudo apt install -y xfce4
 ```bash
 sudo apt install -y xfce4-goodies
 ```
+```bash
+sudo cp /etc/xrdp/xrdp.ini /etc/xrdp/xrdp.ini.bak
+```
+```bash
+sudo sed -i 's/3389/3390/g' /etc/xrdp/xrdp.ini
+```
+```bash
+sudo sed -i 's/max_bpp=32/#max_bpp=32\nmax_bpp=128/g' /etc/xrdp/xrdp.ini
+```
+```bash
+sudo sed -i 's/xserverbpp=24/#xserverbpp=24\nxserverbpp=128/g' /etc/xrdp/xrdp.ini
+```
+```bash
+echo xfce4-session > ~/.xsession
+```
+```bash
+sudo vim /etc/xrdp/startwm.sh
+```
 
 ### Restoring WSL2 after new instalation
  * See https://github.com/codeedu/wsl2-docker-quickstart
