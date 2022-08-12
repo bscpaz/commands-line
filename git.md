@@ -1,6 +1,11 @@
 <h2 align="center">GIT commands</h2>
 
 ## Configurations
+#### Creating a SSH Keys
+```console
+ssh-keygen -t rsa -b 4096
+```
+
 #### Rename a remote source
 ```console
 git remote -v
