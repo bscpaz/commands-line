@@ -45,12 +45,16 @@ java -version
 
 ### Installing Eclipse in WSL2
 ```bash
-sudo apt install libswt-gtk-4-jni
+cp /mnt/d/Users/bscpaz/Downloads/eclipse-inst-jre-linux64.tar.gz ~
 ```
 ```bash
-sudo apt install openjdk-8-jdk
+tar -xvf eclipse-inst-jre-linux64.tar.gz
 ```
-
+```bash
+cd eclipse-installer/
+```
+Then enter into Linux by Remote and run "eclipse-inst"
+ 
 ### Maven config
 
 #### Installing distribution file
