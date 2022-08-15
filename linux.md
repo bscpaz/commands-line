@@ -1,5 +1,15 @@
 <h2 align="center">Linux commands</h2>
 
+### Ports
+##### List all ports
+```shell
+ sudo lsof -i -P -n
+```
+##### List some port
+```shell
+ sudo lsof -i -P -n | grep 8080
+```
+
 #### Vim
 
 | Command | Description |
