@@ -39,6 +39,9 @@ startxfce4
 ```bash
 sudo /etc/init.d/xrdp start
 ```
+```bash
+sudo apt install firefox
+```
 
 ### Restoring WSL2 after new instalation
  * See https://github.com/codeedu/wsl2-docker-quickstart
