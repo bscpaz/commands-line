@@ -32,7 +32,12 @@ git config --local user.name "Bruno Paz"
 ```console
 git config --local user.email "soujava@gmail.com"
 ```
-
+```console
+git config --global credential.helper store
+```
+```console
+git config --global credential.helper cache
+```
 #### Show the credentials configurations:
 ```console
 git config --global user.name
