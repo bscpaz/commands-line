@@ -133,3 +133,9 @@ cd D:\Trabalho\wildfly-18.0.1.Final\standalone\configuration
  keytool -genkey -alias server -keyalg RSA -keystore application.keystore
 ```
 For example: use the password as 'password'.
+
+### Limpeza Epson
+* Clique na impressora;
+* Gerenciar;
+* Preferência de impressão;
+* Guia "manutenção".
