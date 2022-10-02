@@ -117,7 +117,11 @@ cd -
 | `curl http://host.docker.internal:8080` | A docker container accessing a service (8080) in the host machine (my machine) |
 | `sudo wget https://go.dev/go1.18.linux-amd64.tar.gz`| Make downloads of files |
  
- * Environment
+#### Environment
+##### Return some useful information about the specific flavor of the OS and its kernel
+```shell
+uname -a
+```
 
 | Command | Description |
 | --- | --- |
