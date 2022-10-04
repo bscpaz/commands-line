@@ -88,6 +88,12 @@ git branch -m <new name>
 ```console
 git log -p .
 ```
+
+###### Check changes on a file
+```console
+git log -p <file-name>
+```
+
 ###### Change commit's author
 ```console
 git commit --amend --author="Bruno Paz<soujava@gmail.com>"
