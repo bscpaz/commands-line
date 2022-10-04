@@ -83,6 +83,11 @@ git checkout <branch name>
 ```console
 git branch -m <new name>
 ```
+
+###### Check changes on a branch
+```console
+git log -p .
+```
 ###### Change commit's author
 ```console
 git commit --amend --author="Bruno Paz<soujava@gmail.com>"
