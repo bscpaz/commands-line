@@ -53,9 +53,17 @@ sudo apt install firefox
 
 ```console
 wsl --list --verbose
+```
+```console
 wsl --shutdown
+```
+```console
 wsl --export Ubuntu D:\AppData\Local\Packages\Backup\ubuntu.tar
+```
+```console
 wsl --unregister Ubuntu
+```
+```console
 wsl --import Ubuntu D:\AppData\Local\Packages\UbuntuonWindows D:\AppData\Local\Packages\Backup\ubuntu.tar
 ```
  * Replace the new .vhdx by your backup file.
