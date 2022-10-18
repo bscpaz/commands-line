@@ -38,6 +38,9 @@ git config --global credential.helper store
 ```console
 git config --global credential.helper cache
 ```
+
+Note: if the authentication fails, close the terminal and try again.
+
 #### Show the credentials configurations:
 ```console
 git config --global user.name
