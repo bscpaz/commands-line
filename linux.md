@@ -16,6 +16,8 @@
 | --- | --- |
 | `u` | Undo or like "Ctrl + z" |
 | `v` | Visual mode |
+| `yy` | Copy a line |
+| `p` | Paste |
 
 #### Files / Directories
 
