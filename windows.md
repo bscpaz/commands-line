@@ -71,10 +71,10 @@ wsl --import Ubuntu D:\AppData\Local\Packages\UbuntuonWindows D:\AppData\Local\P
  #### Reset root password:
  * Log-in the ubuntu with root user.
 ```console
-root@host:~# whoami
+whoami
 ```
 ```console
-root@host:~# passwd
+passwd
 ```
  #### Change default user
  * Open the Windows Terminal program:
