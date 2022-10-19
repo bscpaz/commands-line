@@ -72,11 +72,9 @@ wsl --import Ubuntu D:\AppData\Local\Packages\UbuntuonWindows D:\AppData\Local\P
  * Log-in the ubuntu with root user.
 ```console
 root@host:~# whoami
-root
+```
+```console
 root@host:~# passwd
-enter new UNIX password: <YOUR NEW PASSWORD>
-retype new UNIX password: <YOUR NEW PASSWORD>
-passwd: password updated successfully
 ```
  #### Change default user
  * Open the Windows Terminal program:
