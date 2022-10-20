@@ -29,6 +29,11 @@ mv file1.txt file2.txt
 ```console
 rm -dr <dir-name>
 ```
+##### Remove files and directories
+```console
+rm -rf *
+ ```
+ 
 ##### Creates a symbolic link
 ```console
 ln -s <dir> <link-name>
