@@ -6,9 +6,21 @@
 ssh-keygen -t rsa -b 4096
 ```
 
-#### Rename a remote source
+#### Remote's commands
 ```console
 git remote -v
+```
+```console
+git clone -o <remote name> git@github.com:bscpaz/<repository>
+```
+```console
+git remote add <remote name> https://git....
+```
+```console
+git remote set-url origin git@github.com:bscpaz/<repository>
+```
+```console
+git remote remove <remote name>
 ```
 ```console
 git remote rename <old> <new>
@@ -16,9 +28,6 @@ git remote rename <old> <new>
 #### Credentials configurations:
 ```console
 git config core.sshCommand 'ssh -i "/home/bscpaz/.ssh/id_rsa"'
-```
-```console
-git remote set-url origin git@github.com:bscpaz/<repository>
 ```
 ```console
 git config --global user.name "Bruno Paz"
@@ -53,14 +62,6 @@ git config --local user.name
 ```
 ```console
 git config --local user.email
-```
-
-#### Git clone / remote:
-```console
-git clone -o <remote name> git@github.com:bscpaz/<repository>
-```
-```console
-git remote add <remote name> https://git....
 ```
 
 ## Commons commands
