@@ -80,7 +80,9 @@ passwd
  * Open the Windows Terminal program:
 ```console
 cd C:\Users\bscpaz\AppData\Local\Microsoft\WindowsApps\CanonicalGroupLimited.UbuntuonWindows_***
-./ubuntu config --default-user bscpaz (yes, with "./" instruction)
+```
+```console
+./ubuntu config --default-user bscpaz
 ``` 
 
 ### Accessing directy wsl directory
