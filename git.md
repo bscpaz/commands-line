@@ -100,7 +100,7 @@ git log -p <file-name>
 
 ###### See what has changed in a file
 ```console
-git log -p <file-name>
+git diff <file-name>
 ```
 
 ###### Change commit's author
