@@ -26,6 +26,9 @@ git remote remove <remote name>
 git remote rename <old> <new>
  ```
 #### Credentials configurations:
+
+https://www.freecodecamp.org/news/how-to-fix-git-always-asking-for-user-credentials/
+
 ```console
 git config core.sshCommand 'ssh -i "/home/bscpaz/.ssh/id_rsa"'
 ```
