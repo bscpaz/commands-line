@@ -88,12 +88,17 @@ git checkout <branch name>
 git branch -m <new name>
 ```
 
-###### Check changes on a branch
+###### Check logs on a branch
 ```console
 git log -p .
 ```
 
-###### Check changes on a file
+###### Check logs on a file
+```console
+git log -p <file-name>
+```
+
+###### See what has changed in a file
 ```console
 git log -p <file-name>
 ```
