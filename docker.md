@@ -97,14 +97,19 @@ docker run --rm bscpaz/hello-world:latest echo "hello, Bruno"
 | --- | --- |
 | `docker logs <container-name>` | Remove (forced) a container |
 
-* Docker-compose
-
-| Command | Description |
-| --- | --- |
-| `docker-compose up -d` | Up a docker-compose in detached mode |
-| `docker-compose up -d --build` | Up a docker-compose in detached mode rebuilding all images |
-| `docker-compose ps` | Show only docker-compose's containers running |
-
+### Docker-compose
+#### Show only docker-compose's containers running
+```shell
+docker-compose ps
+```
+#### Up a docker-compose in detached mode
+```script
+docker-compose up -d
+```
+#### Up a docker-compose in detached mode rebuilding all images
+```shell
+docker-compose up -d --build
+```
 <hr>
 <h4 align="center">Known issues</h4>
 
