@@ -57,6 +57,10 @@ wsl --list --verbose
 ```console
 wsl --shutdown
 ```
+To terminate the specified distribution, or stop it from running
+```console
+wsl --terminate Ubuntu
+```
 ```console
 wsl --export Ubuntu D:\AppData\Local\Packages\Backup\ubuntu.tar
 ```
