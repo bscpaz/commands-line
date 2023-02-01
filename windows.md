@@ -70,6 +70,9 @@ wsl --unregister Ubuntu
 ```console
 wsl --import Ubuntu D:\AppData\Local\Packages\UbuntuonWindows D:\AppData\Local\Packages\Backup\ubuntu.tar
 ```
+```console
+wsl --import Ubuntu C:\desenvolvimento\wsl2\ubuntu D:\AppData\Local\Packages\Backup\ubuntu_pje.tar
+```
  * Replace the new .vhdx by your backup file.
 
  #### Reset root password:
