@@ -72,12 +72,15 @@ docker run --rm bscpaz/hello-world:latest echo "hello, Bruno"
 | `docker network connect my-network ubuntu_1` | Connect an existing container into an existing network |
 | `docker network prune` |Remove all custom networks not used by at least one container |
 
-* Building images
-
-| Command | Description |
-| --- | --- |
-| `docker build -t <image-name> .` | Build a image from a default Dockerfile in current directory (.) |
-| `docker build -t <image-name> . -f Dockerfile.prod` | Build a image from a specific Dockerfile (prod) in current directory |
+### Building images
+####  Build a image from a default Dockerfile in current directory (.)
+```shell
+docker build -t <image-name> .
+```
+#### Build a image from a specific Dockerfile (prod) in current directory
+```shell
+docker build -t <image-name> . -f Dockerfile.prod`
+```
 
 * Volumes
 
