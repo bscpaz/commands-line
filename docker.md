@@ -1,13 +1,18 @@
 <h2 align="center">Docker commands</h2>
 
-* Working with hub.docker
-
-| Command | Description |
-| --- | --- |
-| `docker login` | Docker Login |
-| `docker login registry.cnj.jus.br` | Docker Login on CNJ |
-| `docker logout` | Docker Logout |
-| `docker push bscpaz/hello-world` | Push a local image to hub.docker.com |
+### Working with hub.docker
+#### Docker Login
+```shell
+docker login registry...
+```
+#### Docker Logout
+```shell
+docker logout
+```
+#### Push a local image to hub.docker.com
+```shell
+docker push bscpaz/hello-world
+```
 
 
 * Showing your containers
