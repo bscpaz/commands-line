@@ -14,8 +14,7 @@ docker logout
 docker push bscpaz/hello-world
 ```
 
-
-* Showing your containers
+### Showing your containers
  
 | Command | Description |
 | --- | --- |
@@ -24,16 +23,36 @@ docker push bscpaz/hello-world
 | `docker ps -a -q` | List all containers by IDs |
 
 
-* Creating and Executing images
+### Creating and Executing images
+#### Execute a new container and automatically remove it when it exits
+```shell
+docker run -rm bscpaz/hello-world:latest
+```
 
-| Command | Description |
-| ------ | --- |
-| `docker run -rm bscpaz/hello-world:latest` | Execute a new container and automatically remove it when it exits |
-| `docker run -it --name ubuntu_1 ubuntu bash` | Execute a new ubuntu container in interative and tty mode and then execute its bash |
-| `docker run --rm -it --name ubuntu_1 ubuntu bash` | Same of before but remove it when it exits |
-| `docker run -dit --name ubuntu_2 --network my-network bash` | Execute a new bash container in dettached interative tty mode into "my-network" network |
-| `docker exec -it ubuntu bash` | Execute a existing ubuntu container opening its bash |
-| `docker attach ubuntu` | Execute a detached ubuntu in attached mode |
+#### Execute a new ubuntu container in interative and tty mode and then execute its bash
+```shell
+docker run -it --name ubuntu_1 ubuntu bash
+```
+
+#### Same of before but remove it when it exits
+```shell
+docker run --rm -it --name ubuntu_1 ubuntu bash
+```
+
+####  Execute a new bash container in dettached interative tty mode into "my-network" network
+```shell
+docker run -dit --name ubuntu_2 --network my-network bash
+```
+
+#### Execute a existing ubuntu container opening its bash
+```shell
+docker exec -it ubuntu bash
+```
+
+#### Execute a detached ubuntu in attached mode
+```shell
+docker attach ubuntu
+```
 
 Note: without expliciting the `--network`, the containers cannot communicate between them by theirs names. Just by theirs IPs.
 
