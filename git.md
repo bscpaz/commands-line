@@ -47,9 +47,7 @@ git config --local user.email "soujava@gmail.com"
 ```console
 git config --global credential.helper store
 ```
-```console
-git config --global credential.helper cache
-```
+##### Alternative credential store:
 ```console
 sudo apt-get install gnome-keyring
 ```
