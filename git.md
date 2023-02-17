@@ -50,6 +50,13 @@ git config --global credential.helper store
 ```console
 git config --global credential.helper cache
 ```
+```console
+git config --global credential.helper gnome-keyring
+```
+```console
+git config --global credential.useHttpPath true
+```
+
 
 Note: if the authentication fails, close the terminal and try again.
 
