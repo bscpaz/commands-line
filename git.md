@@ -51,6 +51,9 @@ git config --global credential.helper store
 git config --global credential.helper cache
 ```
 ```console
+sudo apt-get install gnome-keyring
+```
+```console
 git config --global credential.helper gnome-keyring
 ```
 ```console
