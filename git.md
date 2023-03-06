@@ -14,6 +14,9 @@ git remote -v
 git clone -o <remote name> git@github.com:bscpaz/<repository>
 ```
 ```console
+git clone git@github.com:<user>/<repositorio>.git
+```
+```console
 git remote add <remote name> https://git....
 ```
 ```console
