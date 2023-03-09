@@ -129,15 +129,34 @@ cd -
 ```shell
 uname -a
 ```
+##### Linux release / version
+```shell
+lsb_release -a
+```
+```shell
+cat /etc/os-release
+```
+##### Edit .profile file to export variables
+```shell
+vim ~/.profile
+```
+```shell
+source ~/.profile
+```
+##### Shows the number of processing units available
+```shell
+nproc
+```
 
-| Command | Description |
-| --- | --- |
-| `cat /etc/os-release`| Version of Linux|
-| `vim ~/.profile` | edit .profile file to export variables |
-| `source ~/.profile` | reload .profile file |
-| `nproc`| Shows the number of processing units available |
-| `free -m`| Check memory info |
-| `sudo cat /etc/passwd` | List all users |
+##### Check memory info
+```shell
+free -m
+```
+
+##### List all users
+```shell
+sudo cat /etc/passwd
+```
 
  * To update packages on Linux
 
