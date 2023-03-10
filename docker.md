@@ -165,6 +165,16 @@ Solution:
   Change your docker-compose file to "image: netflixoss/zuul:1.0.28"
 ```
 
-
+```
+Issue: 
+  After running docker compose up -d --build, you get:
+  "failed to solve: rpc error: code = Unknown desc = failed to solve with frontend dockerfile.v0: failed to read dockerfile: 
+    open /var/lib/docker/tmp/buildkit-mount3381506098/Dockerfile: no such file or directory"
+Solution:
+  Add the extension of Dockerfile in docker-compose. Example:
+    build:
+      context: ./ms-desafio
+      dockerfile: Dockerfile >>> Dockerfile.yaml
+```
 
 
