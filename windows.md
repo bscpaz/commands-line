@@ -103,7 +103,7 @@ wsl --list -v
 ```
 
 ### Remove Caps Lock on screen
-  * Disable OSD under Control Center 3.0 program
+  * Disable OSD under Control Center 3.0 program (right click on icon)
 
 ### Change name of Window's user folder
   * See youtube video: Y5_Q2BmTx3Y
