@@ -7,11 +7,11 @@
 #### Dowload the jdk-8u202-linux-x64.tar.gz
 
 ```bash
-cp /mnt/d/Users/bscpaz/Downloads/jdk-8u202-linux-x64.tar.gz /tmp
+cp /mnt/d/Temp/jdk-8u361-linux-x64.tar /tmp
 ```
 
 ```bash
-sudo tar xf /tmp/jdk-8u202-linux-x64.tar.gz -C /usr/lib/jvm
+sudo tar xf /tmp/jdk-8u361-linux-x64.tar -C /usr/lib/jvm
 ```
 
 ```bash
