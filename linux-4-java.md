@@ -11,6 +11,14 @@ cp /mnt/d/Temp/jdk-8u361-linux-x64.tar.gz /tmp
 ```
 
 ```bash
+cd /usr/lib
+```
+
+```bash
+sudo mkdir /usr/lib/jvm
+```
+
+```bash
 sudo tar xf /tmp/jdk-8u361-linux-x64.tar.gz -C /usr/lib/jvm
 ```
 
