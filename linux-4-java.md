@@ -27,7 +27,7 @@ cd /usr/lib/jvm
 ```
 
 ```bash
-sudo ln -s jdk1.8.0_202 default-java
+sudo ln -s jdk1.8.0_361 default-java
 ```
 
 ```bash
