@@ -177,4 +177,8 @@ Solution:
       dockerfile: Dockerfile >>> Dockerfile.yaml
 ```
 
-
+```
+Issue: 
+ /bin/sh: ./mvnw: not found.
+Solution:
+  Change the encode's file of mvnw to "LF".
