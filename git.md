@@ -6,7 +6,7 @@ https://git-school.github.io/visualizing-git/
 ## Configurations
 #### Creating a SSH Keys
 ```console
-ssh-keygen -t rsa -b 4096
+ssh-keygen -t rsa -b 4096  -C "bscpaz@mail.com"
 ```
 
 #### Remote's commands
