@@ -35,6 +35,10 @@ git remote rename <old> <new>
 
 https://www.freecodecamp.org/news/how-to-fix-git-always-asking-for-user-credentials/
 
+(Se pasta recém-criada)
+```console
+git init
+```
 ```console
 git config core.sshCommand 'ssh -i "/home/bscpaz/.ssh/id_rsa"'
 ```
